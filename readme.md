@@ -36,6 +36,14 @@ npm run build:css
 
 This will compile everything into your dist/ folder and a simple refresh should have everything working. Note: If it _actually_ breaks, you'll need to keep running the above command until you completely restart the server.
 
+## Tools
+
+- webpack
+- babel
+- npm scripts
+- scss
+  - postcss
+
 ## Commentary
 
 ### (S)CSS Usage
