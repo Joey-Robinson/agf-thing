@@ -1,3 +1,7 @@
+# NOTICE:
+
+[CLICK THIS LINK AND DOWNLOAD THIS REPO. THE ONE YOU ARE VIEWING AS BUILD ASSETS AND IS MUCH BIGGER THAN THE ONE IN THIS LINK.](https://github.com/Joey-Robinson/agf-dev)
+
 # Usage & Install
 
 First, clone or download the repository. Once you've done that, you can run the command:
