@@ -74,6 +74,8 @@ I chose to use ES6 here because I enjoy using new features. Before I cleaned the
 
 If I had to do it over again, I'd try to refactor what I could to make it concise. Not to say I'm unhappy with what I wrote, but I do feel that I could have done better.
 
+I'd also break everything down into different components. I'm a stickler for modular code, even in Vanilla projects. So I'd start by doing this before anything else if given a chance to repeat myself.
+
 ### Known Bugs
 
 The only bug I found during my own QA was something related to the JavaScript that I wasn't able to fix, despite trying for several hours. When you click one of the buttons without the inputs checked, the proper message appear and everything works as it should. But, if you click the inputs after that, you're still given an alert message if you try to submit.
