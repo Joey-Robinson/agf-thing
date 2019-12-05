@@ -1,3 +1,8 @@
+// While this file isn't relatively large I feel like I could have reduced
+// The size it further. That is assuming I kept everything in one file, which
+// I normally wouldn't. But I haven't coded in a month (not an excuse, just reality)
+// So I was more focused on making sure everything worked properly.
+
 // Setting Variables for later use
 const newsLetter = document.getElementById("newsletter")
 const newsLetterBottom = document.getElementById("newsLetterBottom")
@@ -75,14 +80,14 @@ newsLetterBottom.addEventListener("click", matchCheckB)
 // Variables for countdown.
 const dt = new Date()
 const myDate = dt.setDate(dt.getDate() + 5)
-const launchDate = new Date(myDate).getTime()
+const gt = new Date(myDate).getTime()
 const countdown = document.getElementById("time")
 
 // Function that executes countdown with a setInterval (1000ms/1s) to start
 // The countdown properly
 const intvl = setInterval(() => {
   const now = new Date().getTime()
-  const distance = launchDate - now
+  const distance = gt - now
   const days = Math.floor(distance / (1000 * 60 * 60 * 24))
   const hours = Math.floor(
     (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
