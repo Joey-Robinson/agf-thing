@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", arial, sans-serif;
+  scroll-behavior: smooth;
+  color: #2d2d2d;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+  min-height: 150vh;
+}
